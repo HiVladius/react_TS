@@ -13,6 +13,7 @@ dist-ssr
 *.local
 *.env
 *.txt
+deno.lock
 
 # Editor directories and files
 .vscode/*
