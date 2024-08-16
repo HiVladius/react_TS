@@ -1,14 +1,25 @@
+import { Counter } from "./componets/Counter";
+import { TimerPadre } from './componets/TimerPadre';
+import { Usuario } from "./componets/Usuario";
 
 function App() {
-  
-
   return (
     <>
       <>
-        <h1>Proyecto React + TS</h1>      
+        <h1>Proyecto React + TS</h1>
+        <hr />
+        <Counter />
+
+        
+
+        <Usuario />
+        <hr />
+
+
+        <TimerPadre />
       </>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
