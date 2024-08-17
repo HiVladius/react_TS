@@ -1,3 +1,4 @@
+import { ContadorReducer } from "./componets/ContadorReducer";
 import { Counter } from "./componets/Counter";
 import { TimerPadre } from './componets/TimerPadre';
 import { Usuario } from "./componets/Usuario";
@@ -17,6 +18,10 @@ function App() {
 
 
         <TimerPadre />
+
+        <hr />
+
+        <ContadorReducer />
       </>
     </>
   );
